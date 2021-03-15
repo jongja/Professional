@@ -6,6 +6,8 @@
 #include <stdio.h>
 using namespace std;
 
+// String Codes.
+
 int mstrcmp(const char a[], const char b[])
 {
 	int i;
@@ -30,10 +32,15 @@ int delete_list(char* name) {
 	return 0;
 }
 
+int search_list(char* name) {
+	return 0;
+}
+
 ////////////////////////
 
 #define INSERT 100
 #define DELETE 200
+#define SEARCH 300
 
 int score = 100;
 
@@ -55,6 +62,12 @@ int run() {
 		}
 		else if (command == DELETE) {
 			ret = delete_list(s);
+			if (ret != ans) {
+				score = 0;
+			}
+		}
+		else if (command == SEARCH) {
+			ret = search_list(s);
 			if (ret != ans) {
 				score = 0;
 			}
