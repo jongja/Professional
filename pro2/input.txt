@@ -1,0 +1,39 @@
+2
+15
+100 jo 10 1
+100 wow 14 1
+100 ttt 123 1
+100 wtfdw 43 1
+100 jo 43 -1
+100 tts 32 1
+100 wow 32 -1
+200 tts 32
+200 tyt -1
+300 wow 22 1
+200 wow 22
+300 jo 93 1
+100 jo 23 -1
+200 jo 93
+300 djjf 92 -1
+21
+100 kwhhdhhfds 193 1
+100 kw 193 1
+100 weh 23 1
+100 kwh 43 1
+100 rdasffd 53 1
+100 sdfrred 132 1
+100 rytyeef 111 1
+200 kwhhdhhfds 193
+200 kw 193
+200 fsa -1
+200 thdyyd -1
+100 thdyyd 22 1
+300 thdyyd 23 1
+200 thdyyd 23
+100 kw 33 -1
+100 weh 23 -1
+100 ththth 182 1
+300 jong 23 -1
+300 ththth 22 1
+100 kwh 34 -1
+200 ththth 22
