@@ -7,7 +7,28 @@
 using namespace std;
 
 
+// STRING FUNCTIONS //
+
+int mstrcmp(const char a[], const char b[])
+{
+	register int i;
+	for (i = 0; a[i] != '\0'; ++i) if (a[i] != b[i]) return a[i] - b[i];
+	return a[i] - b[i];
+}
+
+void mstrcpy(char dest[], const char src[])
+{
+	register int i = 0;
+	while (src[i] != '\0') { dest[i] = src[i]; i++; }
+	dest[i] = src[i];
+}
+
+
 //////////// NEED TO IMPLEMENT ///////////////
+
+void init() {
+	return;
+}
 
 int add_new_data(char* str, int val) {
 	return 0;
